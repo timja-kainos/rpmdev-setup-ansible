@@ -1,0 +1,21 @@
+---
+- name: Ensure epel repository is installed
+  yum: 
+    name: epel-release
+    state: present
+
+- name: Ensure rpmdevtools is installed.
+  yum: 
+    name: rpmdevtools
+    state: present
+
+- name: Ensure gettext is installed.
+  yum: 
+    name: gettext 
+    state: present
+
+- name: Ensure git is installed
+  yum: 
+    name: git 
+    state: present
+
