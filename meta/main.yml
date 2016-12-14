@@ -18,7 +18,10 @@ galaxy_info:
     - name: EL
       versions:
       - all
-  galaxy_tags: ['rpm', 'development']
+  galaxy_tags: 
+    - rpm
+    - rpmbuild
+    - rpm-build
 
 dependencies: []
 
