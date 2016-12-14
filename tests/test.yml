@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - setup-rpmbuild
+    - timja-kainos.rpmdev-setup
